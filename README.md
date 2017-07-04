@@ -2,7 +2,7 @@
 @Author: Arpit Jain
 @Email: arpitrb@gmail.com
 
-### protTrace is a simulation-based framework to estimate the evolutionary traceabilities of proteins. ###
+### protTrace_FAS is a simulation-based framework to estimate the evolutionary traceabilities of proteins plus do FAS calculations for every predicted ortholog. ###
 
 ################################################
 Software dependencies:
@@ -18,9 +18,10 @@ Software dependencies:
 8. Creating BLAST db			- makeblastdb
 9. Plotting decay curves		- R
 10. Orthologs search 			- HaMStR
-11. Orthologs search (single seq)	- HaMStR-OneSeq		 
-12. Likelihood distances calc.		- TreePuzzle
-13. Programming languages		- Python (2.6 or higher), Perl, JAVA
+11. Orthologs search (single seq)	- HaMStR-OneSeq
+12. FAS calculations			- Hamstr-OneSeq - FAS module
+13. Likelihood distances calc.		- TreePuzzle
+14. Programming languages		- Python (2.6 or higher), Perl, JAVA
 
 ################################################
 Other programs / files (provided in folder 'used_files')
